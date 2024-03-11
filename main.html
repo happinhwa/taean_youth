@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>태안청년왔슈</title>
+        <!-- favicon -->
+        <link rel="icon" href="./images/favicon/favicon.ico">
+        <!-- policy -->
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <!-- swiper js -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- js link -->
+        <script src="./js/index.js"></script>
+        <!-- css link -->
+        <link href="./src/output.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="relative">
+            <div class="m-auto lg:w-1200 md:w-768 sm:w-360 bg-white">
+                <div class="flex items-center justify-center  bg-white">
+                    <div>
+                        <a href="../main.html">
+                            <img class="lg:w-240 md:w-200 sm:w-160" src="../images/logo/logo.svg" alt="로고">
+                        </a>
+                    </div>
+                    <nav class="m-auto lg:block md:hidden sm:hidden bg-neutral-white">
+                        <ul class="flex group bg-white">
+                            <li class="m-0 p-0 w-160 flex flex-col items-center justify-center group relative h-80 bg-white">
+                                <a href="#" class="text-xl font-medium text-neutral-900 border-b-2 border-transparent hover:text-primary-700 hover:border-primary-700">태안Talk</a>
+                                <ul class="bg-white w-160 h-300 flex-col items-center justify-center space-y-3 text-lg pt-3 mt-1 hidden group-hover:block absolute top-12 z-50">
+                                </ul>
+                            </li>
+                            <li class="m-0 p-0 w-160 flex flex-col items-center justify-center group relative h-80 bg-white">
+                                <a href="#" class="text-xl font-medium text-neutral-900 border-b-2 border-transparent hover:text-primary-700 hover:border-primary-700">태안人터뷰</a>
+                                <ul class="bg-white hover:bg-megabg w-160 h-300 flex-col items-center justify-start space-y-3 text-lg pt-3 mt-1 hidden group-hover:block absolute top-12 z-50">
+                                    <li class="w-160 rounded-lg text-center hover:bg-primary-700 hover:text-neutral-white"><a href="#">창업 분야</a></li>
+                                    <li class="w-160 rounded-lg text-center hover:bg-primary-700 hover:text-neutral-white"><a href="#">취업 분야</a></li>
+                                </ul>
+                            </li>
+                            <li class="m-0 p-0 w-160 flex flex-col items-center justify-center group relative h-80 bg-white">
+                                <a href="#" class="text-xl font-medium text-neutral-900 border-b-2 border-transparent hover:text-primary-700 hover:border-primary-700">태안 청년정책</a>
+                                <ul class="bg-white hover:bg-megabg w-160 h-300 flex-col items-center justify-start space-y-3 text-lg pt-3 mt-1 hidden group-hover:block absolute top-12 z-50">
+                                    <li class="w-160 rounded-lg text-center hover:bg-primary-700 hover:text-neutral-white"><a href="#">일자리</a></li>
+                                    <li class="w-160 rounded-lg text-center hover:bg-primary-700 hover:text-neutral-white"><a href="#">취업 지원</a></li>
+                                    <li class="w-160 rounded-lg text-center hover:bg-primary-700 hover:text-neutral-white"><a href="#">창업 지원</a></li>
+                                    <li class="w-160 rounded-lg text-center hover:bg-primary-700 hover:text-neutral-white"><a href="#">주거 지원</a></li>
+                                    <li class="w-160 rounded-lg text-center hover:bg-primary-700 hover:text-neutral-white"><a href="#">육아 지원</a></li>
+                                    <li class="w-160 rounded-lg text-center hover:bg-primary-700 hover:text-neutral-white"><a href="#">교육 지원</a></li>
+                                    <li class="w-160 rounded-lg text-center hover:bg-primary-700 hover:text-neutral-white"><a href="#">공간 대여</a></li>
+                                </ul>
+                            </li>
+                            <li class="m-0 p-0 w-160 flex flex-col items-center justify-center group relative h-80">
+                                <a href="#" class="text-xl font-medium text-neutral-900 border-b-2 border-transparent hover:text-primary-700 hover:border-primary-700">새소식</a>
+                                <ul class="bg-white hover:bg-megabg w-160 h-300 flex-col items-center justify-start space-y-3 text-lg pt-3 mt-1 hidden group-hover:block absolute top-12 z-50">
+                                    <li class="w-160 rounded-lg text-center hover:bg-primary-700 hover:text-neutral-white"><a href="#" class="">공지사항</a></li>
+                                    <li class="w-160 rounded-lg text-center hover:bg-primary-700 hover:text-neutral-white"><a href="#" class="">보도자료</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <ul class="flex lg:w-240 md:w-200 sm:w-160 justify-end relative z-10">
+                        <li><a class="w-12 h-12 flex items-center justify-center" href="#"><img src="../images/svg/header-search.svg" alt="search"></a></li>
+                        <li><a class="w-12 h-12 flex items-center justify-center" href="#"><img src="../images/svg/header-uer-login.svg" alt="login"></a></li>
+                        <li class="hidden"><a class="w-12 h-12 flex items-center justify-center" href="#"><img src="../images/svg/header-hamburger.svg" alt="hamburger-menu"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="absolute inset-x-0 top-full bg-white z-0 w-full"></div>
+        </header>
+        <main>
+            <section class="main-slide-section">
+                <div class="swiper main-swiper relative h-430">
+                    <div class="swiper-wrapper main-swiper-wrapper">
+                        <div class="swiper-slide main-swiper-slide bg-local" style="background: url(../images/main-slide/main-slide-img-01.png) no-repeat center / cover;">
+                            <div class="main-slide-inner">
+                                <div class="flex justify-end">
+                                    <img class="pt-10 pr-24" src="./images/main-slide/main-slide-slogan01.svg" alt="메인슬로건"/>
+                                </div>
+                            </div>
+                        </div><!-- END: main-swiper-slide first -->
+                        <div class="swiper-slide main-swiper-slide bg-local" style="background: url(../images/main-slide/main-slide-img-02.png) no-repeat center / cover;">
+                            <div class="main-slide-inner">
+                                <div class="flex">
+                                    <img class="pt-10 pl-24" src="./images/main-slide/main-slide-slogan02.svg" alt="메인슬로건"/>
+                                </div>
+                            </div>
+                        </div><!--  END: main-swiper-slide second -->
+                        <div class="swiper-slide main-swiper-slide bg-local" style="background: url(../images/main-slide/main-slide-img-03.png) no-repeat center / cover;">
+                            <div class="main-slide-inner">
+                                <div class="flex">
+                                    <img class="pt-10 pl-24" src="./images/main-slide/main-slide-slogan03.svg" alt="메인슬로건"/>
+                                </div>
+                            </div>
+                        </div><!--  END: main-swiper-slide third -->
+                        <div class="swiper-slide main-swiper-slide bg-local" style="background: url(../images/main-slide/main-slide-img-04.png) no-repeat center / cover;">
+                            <div class="main-slide-inner">
+                                <div class="flex justify-end">
+                                    <img class="pt-10 pr-24" src="./images/main-slide/main-slide-slogan04.svg" alt="메인슬로건"/>
+                                </div>
+                            </div>
+                        </div><!--  END: main-swiper-slide fourth -->
+                    </div>
+                    <div class="swiper-button-prev h-6 w-6 text-neutral-900" style="left:8%"></div>
+                    <div class="swiper-button-next h-6 w-6 text-neutral-900" style="right:8%"></div>
+                    <div class="flex items-center justify-center gap-x-2.5">
+                        <div class="swiper-pagination main-swiper-pagination"></div>
+                        <div class="w-3 h-3 bg-play-btn"></div>
+                    </div>
+                </div><!-- END: main-swiper -->
+            </section> <!-- END : main-slide-section -->
+            <section class="quick-menu-section w-1200 m-auto py-10">
+                <div class="flex flex-col">
+                    <div class="flex items-center text-2xl font-semibold gap-2">
+                        <span>주요서비스</span>
+                        <img class="w-32 h-32" src="./images/thumb-up.gif" alt="엄지척">
+                    </div>
+                    <div class="flex flex-col justify-between">
+                        <ul class="flex flex-wrap w-full justify-between rounded-2xl border-2 border-neutral-600 bg-white px-12 py-5">
+                            <li class="quick-menu-icon">
+                                <a href="#" class="flex flex-col items-center">
+                                    <div class="quick-menu-icon-img-box">
+                                        <img src="./images/quick-icons/icon-our.svg" alt="퀵메뉴 아이콘" />
+                                    </div>
+                                    <span>태안Talk</span>
+                                </a>
+                            </li>
+                            <li class="quick-menu-icon">
+                                    <a href="#" class="flex flex-col items-center">
+                                        <div class="quick-menu-icon-img-box">
+                                            <img src="./images/quick-icons/icon-founded-story.svg" alt="퀵메뉴 아이콘" />
+                                        </div>
+                                        <span>창업인터뷰</span>
+                                    </a>
+                            </li>
+                            <li class="quick-menu-icon">
+                                    <a href="#" class="flex flex-col items-center">
+                                        <div class="quick-menu-icon-img-box">
+                                            <img src="./images/quick-icons/icon-employment-story.svg" alt="퀵메뉴 아이콘" />
+                                        </div>
+                                        <span>취업인터뷰 </span>
+                                    </a>
+                            </li>
+                            <li class="quick-menu-icon">
+                                    <a href="#" class="flex flex-col items-center">
+                                        <div class="quick-menu-icon-img-box">
+                                            <img src="./images/quick-icons/icon-job.svg" alt="퀵메뉴 아이콘" />
+                                        </div>
+                                        <span>일자리</span>
+                                    </a>
+                            </li>
+                            <li class="quick-menu-icon">
+                                    <a href="#" class="flex flex-col items-center">
+                                        <div class="quick-menu-icon-img-box">
+                                            <img src="./images/quick-icons/icon-founded-supply.svg" alt="퀵메뉴 아이콘" />
+                                        </div>
+                                        <span>창업지원</span>
+                                    </a>
+                            </li>
+                            <li class="quick-menu-icon">
+                                    <a href="#" class="flex flex-col items-center">
+                                        <div class="quick-menu-icon-img-box">
+                                            <img src="./images/quick-icons/icon-employment-supply.svg" alt="퀵메뉴 아이콘" />
+                                        </div>
+                                        <span>취업지원</span>
+                                    </a>
+                            </li>
+                            <li class="quick-menu-icon">
+                                    <a href="#" class="flex flex-col items-center">
+                                        <div class="quick-menu-icon-img-box">
+                                            <img src="./images/quick-icons/icon-home.svg" alt="퀵메뉴 아이콘" />
+                                        </div>
+                                        <span>주거지원</span>
+                                    </a>
+                            </li>
+                            <li class="quick-menu-icon">
+                                    <a href="#" class="flex flex-col items-center">
+                                        <div class="quick-menu-icon-img-box">
+                                            <img src="./images/quick-icons/icon-edu.svg" alt="퀵메뉴 아이콘" />
+                                        </div>
+                                        <span>교육지원</span>
+                                    </a>
+                            </li>
+                            <li class="quick-menu-icon">
+                                    <a href="#" class="flex flex-col items-center">
+                                        <div class="quick-menu-icon-img-box">
+                                            <img src="./images/quick-icons/icon-parenting.svg" alt="퀵메뉴 아이콘" />
+                                        </div>
+                                        <span>육아지원</span>
+                                    </a>
+                            </li>
+                            <li class="quick-menu-icon">
+                                    <a href="#" class="flex flex-col items-center">
+                                        <div class="quick-menu-icon-img-box">
+                                            <img src="./images/quick-icons/icon-culture.svg" alt="퀵메뉴 아이콘" />
+                                        </div>
+                                        <span>공간대여</span>
+                                    </a>
+                            </li>
+                        </ul><!-- END: quick-menu-icon-list -->
+                    </div><!-- END: quick-menu-box -->
+                </div><!-- END: quick-menu-box-wrap -->
+            </section><!-- end : quick-menu-section -->
+            <section class="hot-commu-section py-10 bg-gradient-to-br from-hotpost1 to-hotpost2">
+                <div class="hot-commu-inner w-1200 m-auto ">
+                    <div class="title">
+                        <h1 class="flex items-center text-2xl font-semibold gap-2">
+                            지금 핫한 이야기 놓치지 마세요
+                            <img class="w-32 h-32" src="./images/fire.gif" alt="불타는">
+                        </h1>
+                    </div>
+                    <div class="hot-commu-wrapper flex relative">
+                        <div class="dummy-space"></div>
+                        <div class="swiper hot-swiper">
+                            <div class="swiper-wrapper hot-swiper-wrapper">
+                                <div class="swiper-slide hot-swiper-slide is-pic-box">
+                                    <a href="#">
+                                        <div class="hot-top-box">
+                                            <div class="hot-profile">
+                                                <img src="./images/hot-user-profile-03.png" alt="유저아이콘" />
+                                                <span>민수아빠</span>
+                                            </div>
+                                            <span>2024.02.22</span>
+                                        </div><!-- END: hot-top-box -->
+                                        <div class="hot-tag-box">
+                                            <span>#취업조언</span>
+                                            <span>#면접준비</span>
+                                            <span>#공직자</span>
+                                        </div><!-- END: hot-tag-box -->
+                                        <div class="hot-contents-box">
+                                            <h3>면접관이 알려주는 공직자(공무원, 공사, 공익재단 등) 면접요령</h3>
+                                            <p>좋은 자료 찾아서 공유드립니다!!!! 다들 면접화이팅!!!!! 약 40년 공직경험과 인사위원장 등 경험을바탕으로 공직자(공무원, 공사, 공익재단 등) 면접요령을첨부물(Part1 - Part3)로 나누어 게시하오니 인사부서 및수험생들께 도움되시기 바랍니다. *유튜브(40년 공직면접관)을 검색해 보세요.</p>
+                                        </div><!-- END: hot-contents-box -->
+                                        <div class="hot-img-box">
+                                            <img src="./images/hot-slide-pic-01.png" alt="핫 게시판 이미지" />
+                                        </div><!-- END: hot-img-box -->
+                                        <div class="hot-view-box">
+                                            <span>조회수 1,082</span>
+                                            <span>댓글 32</span>
+                                            <span>
+                                                <em>♥</em>
+                                                <em>11</em>
+                                            </span>
+                                        </div><!-- END: hot-view-box -->
+                                    </a>
+                                </div><!-- END: hot-swiper-slide is-pic-box -->
+                                <div class="swiper-slide hot-swiper-slide no-pic-box">
+                                    <a href="#">
+                                        <div class="hot-top-box">
+                                            <div class="hot-profile">
+                                                <img src="./images/hot-user-profile-02.png" alt="유저아이콘">
+                                                <span>동네대장</span>
+                                            </div>
+                                            <span>23시간 전</span>
+                                        </div><!-- END: hot-top-box -->
+                                        <div class="hot-tag-box">
+                                            <span>#취업조언</span>
+                                            <span>#직종추천</span>
+                                        </div><!-- END: hot-tag-box -->
+                                        <div class="hot-contents-box">
+                                            <h3>나이 & 공백기 많은 친형 취업 조언 부탁드립니다.</h3>
+                                            <p>
+                                            저는 대학 졸업하자마자 바로 취업해서 취준 해본 경험도
+                                            없고 어떻게 도움을 줘야할지 모르겠습니다. 늦은나이에
+                                            취업에 성공하신 분이나 공백기 많을 때 취업에 성공하신
+                                            분들이 도와주시면 감사하겠습니다. 형이 공백기가 너무
+                                            길고 성격도 너무 여리고 내성적인데 어떤 직종으로
+                                            취업을 해야할지 조언 부탁드립니다.
+                                            </p>
+                                        </div><!-- END: hot-contents-box -->
+                                        <div class="hot-view-box">
+                                            <span>조회수 174</span>
+                                            <span>댓글 23</span>
+                                            <span>
+                                                <em>♥</em>
+                                                <em>3</em>
+                                            </span>
+                                        </div><!-- END: hot-view-box -->
+                                    </a>
+                                </div><!-- END: hot-swiper-box no-pic-box -->
+                                <div class="swiper-slide hot-swiper-slide is-pic-box">
+                                    <a href="#">
+                                        <div class="hot-top-box">
+                                            <div class="hot-profile">
+                                                <img src="./images/hot-user-pic.png" alt="유저아이콘" />
+                                                <span>딸기조아</span>
+                                            </div>
+                                            <span>2024.02.20</span>
+                                        </div><!-- END: hot-top-box -->
+                                        <div class="hot-tag-box">
+                                            <span>#창업조언</span>
+                                            <span>#탕후루</span>
+                                            <span>#요식업</span>
+                                        </div><!-- END: hot-tag-box -->
+                                        <div class="hot-contents-box">
+                                            <h3>탕후루 창업 문의</h3>
+                                            <p>
+                                            탕후루 창업해보신 분 계신가요? 제가 지금 창업을
+                                            준비중인데, 관련해서 도움받을 수 있는 선배님들 계신지
+                                            여쭤봅니다. 탕후루 창업해보신 분 계신가요? 제가 지금
+                                            창업을 준비중인데, 관련해서 도움받을 수 있는 선배님들
+                                            계신지 여쭤봅니다.
+                                            </p>
+                                        </div><!-- END: hot-contents-box -->
+                                        <div class="hot-img-box">
+                                            <img src="./images/hot-post-img-03.png" alt="핫 게시판 이미지" />
+                                        </div><!-- END: hot-img-box -->
+                                        <div class="hot-view-box">
+                                            <span>조회수 534</span>
+                                            <span>댓글 15</span>
+                                            <span>
+                                            <em>♥</em>
+                                            <em>3</em>
+                                            </span>
+                                        </div><!-- END: hot-img-box -->
+                                    </a>
+                                </div><!-- END: hot-swiper-slide is-pic-box -->
+                                <div class="swiper-slide hot-swiper-slide no-pic-box">
+                                    <a href="#">
+                                        <div class="hot-top-box">
+                                            <div class="hot-profile">
+                                                <img src="./images/svg/hot-user-icon.svg" alt="유저아이콘" />
+                                                <span>시공조아</span>
+                                            </div>
+                                            <span>2024.02.22</span>
+                                        </div><!-- END: hot-top-box -->
+                                        <div class="hot-tag-box">
+                                            <span>#창업조언</span>
+                                            <span>#오락실</span>
+                                            <span>#창업준비</span>
+                                        </div><!-- END: hot-tag-box -->
+                                        <div class="hot-contents-box">
+                                            <h3>오락실 창업 요즘 어떤가요?</h3>
+                                            <p>
+                                            아파트 동네 상권이면서 동네분들 술먹고 외식하는
+                                            상권이거든요.. 스포츠 게임기나 인형뽑기, 리듬게임 이런
+                                            구성 어떨런지..... 리듬게임은 개인적으로 세가,
+                                            반다이남코 이런걸 알아보고 있는데요, 넷과금이 얼마정도
+                                            하는지 궁금한데 아시는 분 계신가요? 츄니즘 3대, 신태고
+                                            3대, 펌프 1대 3~40평정도 생각합니다. 선배님들 팁
+                                            부탁드립니다.
+                                            </p>
+                                        </div><!-- END: hot-contents-box -->
+                                        <div class="hot-view-box">
+                                            <span>조회수 573</span>
+                                            <span>댓글 13</span>
+                                            <span>
+                                                <em>♥</em>
+                                                <em>0</em>
+                                            </span>
+                                        </div><!-- END: hot-view-box -->
+                                    </a>
+                                </div><!-- END: hot-swiper-slide no-pic-box -->
+                            </div><!-- END: hot-swiper-wrapper -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="hot-swiper-play-btn"></div>
+                        </div><!-- END: hot-swiper -->
+                    </div><!-- END: hot-commu-wrapper -->
+                </div><!-- END: hot-commu-inner -->
+            </section><!-- end : hot-commu-section -->
+            <section class="interview-card-section w-1200 m-auto py-10">
+                <div class="interview-card-inner">
+                    <div class="flex items-center justify-between mb-6">
+                        <h1 class="flex items-center text-2xl font-semibold gap-2">
+                            태안 청년들의<span class="text-primary-700"> 성공기 </span>보고 가세요!
+                            <img class="w-24 h-24" src="./images/eyes-4836_128.gif" alt="눈 이모지">
+                        </h1>
+                        <a href="#" class="flex items-center">
+                            <span class="text-lg font-semibold">더보기</span>
+                            <img class="w-24 h-24" src="./images/svg/plus-01-md.svg" alt="더보기" />
+                        </a>
+                    </div><!-- END: title -->
+                    <ul class="flex gap-x-10 items-center justify-between">
+                        <li class="w-370 rounded-lg border border-transparent hover:border-neutral-500 hover:border overflow-hidden">
+                            <a href="#">
+                                <div class="h-278 overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="./images/interview-section/interview-section-img01.png" alt="인터뷰 사진" />
+                                </div>
+                                <div class="flex flex-col gap-y-2 p-3">
+                                    <h3 class="line-clamp-1 text-xl font-semibold">태안군에서 진행한 현장안전관리자 양성과정 수료하고 취뽀했어요</h3>
+                                    <span class="font-normal text-neutral-700">취업성공기</span>
+                                    <div class="text-sm font-normal text-neutral-700">
+                                        <span>조회수 44</span>
+                                        <span>2024.02.14</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="w-370 rounded-lg border border-transparent hover:border-neutral-500 hover:border overflow-hidden">
+                            <a href="#">
+                                <div class="h-278 overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="./images/interview-section/interview-section-img02.png" alt="인터뷰 사진" />
+                                </div>
+                                <div class="flex flex-col gap-y-2 p-3">
+                                    <h3 class="line-clamp-1 text-xl font-semibold">태안 관광지에서 인생 사진 건지세요!</h3>
+                                    <span class="font-normal text-neutral-700">창업성공기</span>
+                                    <div class="text-sm font-normal text-neutral-700">
+                                        <span>조회수 59</span>
+                                        <span>2024.02.05</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="w-370 rounded-lg border border-transparent hover:border-neutral-500 hover:border overflow-hidden">
+                            <a href="#">
+                                <div class="h-278 overflow-hidden">
+                                    <img class="w-full h-full object-cover" src="./images/interview-section/interview-section-img03.png" alt="인터뷰 사진">
+                                </div>
+                                <div class="flex flex-col gap-y-2 p-3">
+                                    <h3 class="line-clamp-1 text-xl font-semibold">태안 여성농업인 프로그램으로 새출발을 시작했습니다.</h3>
+                                    <span class="font-normal text-neutral-700">취업성공기</span>
+                                    <div class="text-sm font-normal text-neutral-700">
+                                        <span>조회수 128</span>
+                                        <span>2024.01.30 </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul><!-- END: interveiw-card-items -->
+                </div><!-- END: interview-card-inner -->
+            </section><!-- end : interview-card-section -->
+            <section class="youth-supply-section w-1200 m-auto py-10">
+                <h2 class="blind">청년지원 슬라이드 섹션</h2>
+                <div class="youth-supply-inner">
+                    <div class="title">
+                        <h1 class="supply-title-pc">
+                            태안에서만 누릴 수 있는 지원들 놓치지 마세요!
+                            <img src="./images/twinkle.gif" alt="반짝" style="width: 32px; height: 32px;">
+                        </h1>
+                        <a href="#">
+                            <span>더보기</span>
+                            <img src="./images/svg/plus-01-md.svg" alt="더보기+" />
+                        </a>
+                    </div><!-- END: title -->
+                    <div class="youth-supply-slides">
+                        <div class="swiper youth-supply-swiper">
+                            <div class="swiper-wrapper youth-supply-wrapper">
+                                <div class="swiper-slide youth-supply-slide">
+                                    <div class="youth-supply-top-box">
+                                        <img src="./images/svg/youth-mark-always.png" alt="청년지원 날짜마크" />
+                                        <span class="youth-supply-category welfare-mark">
+                                            복지·문화
+                                        </span>
+                                    </div><!-- END: youth-supply-top-box -->
+                                    <div class="youth-supply-middle-box">
+                                        <h3>태안 청년문화예술가 창작활동 지원</h3>
+                                        <p>
+                                            대학생, 공공지원금 수례 경험이 없는 자, 2022년도
+                                            임의포기 이력이 있는자를 제외한 예술 관련 졸업생 대상
+                                            창작예술 지원금 지원
+                                        </p>
+                                    </div><!-- END: youth-supply-middle-box -->
+                                    <ul class="youth-supply-bottom-box">
+                                        <li class="youth-supply-infos">
+                                            <strong>제공유형</strong>
+                                            <span>현금지급</span>
+                                        </li>
+                                        <li class="youth-supply-infos">
+                                            <strong>신청방법</strong>
+                                            <span>방문</span>
+                                        </li>
+                                        <li class="youth-supply-infos">
+                                            <strong>신청기간</strong>
+                                            <span>상시</span>
+                                        </li>
+                                    </ul><!-- youth-supply-bottom-box -->
+                                    <a href="#" class="youth-supply-to-detail-btn">
+                                        <span>자세히 보기</span>
+                                        <img src="./images/svg/chevron-right-01.svg" alt="방향">
+                                    </a>
+                                </div><!-- END: youth-supply-slide -->
+                                <div class="swiper-slide youth-supply-slide">
+                                    <div class="youth-supply-top-box">
+                                        <img src="./images/svg/youth-mark-ongoing.png" alt="청년지원 날짜마크" />
+                                        <span class="youth-supply-category dwelling welfare-mark">
+                                            주거
+                                        </span>
+                                    </div><!-- END: youth-supply-top-box -->
+                                    <div class="youth-supply-middle-box">
+                                        <h3>신혼부부 주거지원 사업</h3>
+                                        <p>
+                                            무주택 신혼부부에게 연간 최대 100만 원 내에서 최장 3년간
+                                            대출, 최근 7년 이내 혼인신고한 무주택자 중 부부합산
+                                            기준중위소득이 180% 이하이고 신청일 기준으로 부부 모두
+                                            태안군에 거주할 경우 신청가능
+                                        </p>
+                                    </div><!-- END: youth-supply-middle-box -->
+                                    <ul class="youth-supply-bottom-box">
+                                        <li class="youth-supply-infos">
+                                            <strong>제공유형</strong>
+                                            <span>이자지원</span>
+                                        </li>
+                                        <li class="youth-supply-infos">
+                                            <strong>신청방법</strong>
+                                            <span>복지센터 방문</span>
+                                        </li>
+                                        <li class="youth-supply-infos">
+                                            <strong>신청기간</strong>
+                                            <span>~2024.05.22</span>
+                                        </li>
+                                    </ul><!-- END: youth-supply-bottom-box -->
+                                    <a href="#" class="youth-supply-to-detail-btn">
+                                        <span>자세히 보기</span>
+                                        <img src="./images/svg/chevron-right-01.svg" alt="방향" />
+                                    </a>
+                                </div><!-- END: youth-supply-slide -->
+                                <div class="swiper-slide youth-supply-slide">
+                                    <div class="youth-supply-top-box">
+                                        <img src="./images/svg/youth-mark-closed.png" alt="청년지원 날짜마크">
+                                        <span class="youth-supply-category job welfare-mark">
+                                            일자리
+                                        </span>
+                                    </div><!-- END: youth-supply-top-box -->
+                                    <div class="youth-supply-middle-box">
+                                        <h3>청년농업인 영농정착 지원 사업</h3>
+                                        <p>
+                                            지역 농업 발전을 이끌 유망한 예비 농업인 및 농업경영인을
+                                            발굴하고 이들을 정예 농업인력으로 육성하기 위한 것으로,
+                                            대상자에게는 최장 3년간 월 최대 110만 원의
+                                            영농정착지원금 지급.
+                                        </p>
+                                    </div><!-- END: youth-supply-middle-box -->
+                                    <ul class="youth-supply-bottom-box">
+                                        <li class="youth-supply-infos">
+                                            <strong>제공유형</strong>
+                                            <span>현금지급</span>
+                                        </li>
+                                        <li class="youth-supply-infos">
+                                            <strong>신청방법</strong>
+                                            <span>방문</span>
+                                        </li>
+                                        <li class="youth-supply-infos">
+                                            <strong>신청기간</strong>
+                                            <span>~2024.01.31</span>
+                                        </li>
+                                    </ul><!-- END: youth-supply-bottom-box -->
+                                    <a href="#" class="youth-supply-to-detail-btn">
+                                        <span>자세히 보기</span>
+                                        <img src="./images/svg/chevron-right-01.svg" alt="방향" />
+                                    </a>
+                                </div><!-- END: youth-supply-slide -->
+                                <div class="swiper-slide youth-supply-slide">
+                                    <div class="youth-supply-top-box">
+                                        <img src="./images/svg/youth-mark-always.png" alt="청년지원 날짜마크" >
+                                        <span class="youth-supply-category edu welfare-mark">
+                                            교육
+                                        </span>
+                                    </div><!-- END: youth-supply-top-box -->
+                                    <div class="youth-supply-middle-box">
+                                        <h3>태안 미취업 청년 취업교육 수강료 지원</h3>
+                                        <p>
+                                            태안거주 미취업 청년들을 대상으로 청년의 경제적 부담
+                                            경감 및 취업능력개발 지원을 위해 취업교육 수강료 지원
+                                        </p>
+                                    </div><!-- END: youth-supply-middle-box -->
+                                    <ul class="youth-supply-bottom-box">
+                                        <li class="youth-supply-infos">
+                                            <strong>제공유형</strong>
+                                            <span>현금지급</span>
+                                        </li>
+                                        <li class="youth-supply-infos">
+                                            <strong>신청방법</strong>
+                                            <span>방문</span>
+                                        </li>
+                                        <li class="youth-supply-infos">
+                                            <strong>신청기간</strong>
+                                            <span>상시</span>
+                                        </li>
+                                    </ul><!-- END: youth-supply-bottom-box -->
+                                    <a href="#" class="youth-supply-to-detail-btn">
+                                        <span>자세히 보기</span>
+                                        <img src="./images/svg/chevron-right-01.svg" alt="방향" />
+                                    </a>
+                                </div><!-- END: youth-supply-slide -->
+                                <div class="swiper-slide youth-supply-slide">
+                                    <div class="youth-supply-top-box">
+                                        <img src="./images/svg/youth-mark-always.png" alt="청년지원 날짜마크" >
+                                        <span class="youth-supply-category parenting welfare-mark">
+                                            육아
+                                        </span>
+                                    </div><!-- END: youth-supply-top-box -->
+                                    <div class="youth-supply-middle-box">
+                                        <h3>출산장려금 지원</h3>
+                                        <p>
+                                            출산장려금 : 첫째 50만원, 둘째 100만원, 셋째이상 200만원
+                                            지원
+                                        </p>
+                                    </div><!-- END: youth-supply-middle-box -->
+                                    <ul class="youth-supply-bottom-box">
+                                        <li class="youth-supply-infos">
+                                            <strong>제공유형</strong>
+                                            <span>현금지급</span>
+                                        </li>
+                                        <li class="youth-supply-infos">
+                                            <strong>신청방법</strong>
+                                            <span>방문</span>
+                                        </li>
+                                        <li class="youth-supply-infos">
+                                            <strong>신청기간</strong>
+                                            <span>상시</span>
+                                        </li>
+                                    </ul><!-- END: youth-supply-bottom-box -->
+                                    <a href="#" class="youth-supply-to-detail-btn">
+                                        <span>자세히 보기</span>
+                                        <img src="./images/svg/chevron-right-01.svg" alt="방향" />
+                                    </a>
+                                </div><!-- END: youth-supply-slide -->
+                                <div class="swiper-slide youth-supply-slide">
+                                    <div class="youth-supply-top-box">
+                                        <img src="./images/svg/youth-mark-always.png" alt="청년지원 날짜마크" >
+                                        <span class="youth-supply-category job welfare-mark">
+                                            일자리
+                                        </span>
+                                    </div><!-- END: youth-supply-top-box -->
+                                    <div class="youth-supply-middle-box">
+                                        <h3>청년창업자금 무이자대출지원</h3>
+                                        <p>청년창업자에게 무이자 대출 및 이자를 지원</p>
+                                    </div><!-- END: youth-supply-middle-box -->
+                                    <ul class="youth-supply-bottom-box">
+                                        <li class="youth-supply-infos">
+                                            <strong>제공유형</strong>
+                                            <span>최대 5천만 대출, 5년간 이자지원</span>
+                                        </li>
+                                        <li class="youth-supply-infos">
+                                            <strong>신청방법</strong>
+                                            <span>상담 후 지원</span>
+                                        </li>
+                                        <li class="youth-supply-infos">
+                                            <strong>신청기간</strong>
+                                            <span>상시</span>
+                                        </li>
+                                    </ul><!-- END: youth-supply-bottom-box -->
+                                    <a href="#" class="youth-supply-to-detail-btn">
+                                        <span>자세히 보기</span>
+                                        <img src="./images/svg/chevron-right-01.svg" alt="방향" />
+                                    </a>
+                                </div><!-- END: youth-supply-slide -->
+                                <div class="swiper-slide youth-supply-slide">
+                                    <div class="youth-supply-top-box">
+                                        <img src="./images/svg/youth-mark-ongoing.png" alt="청년지원 날짜마크" >
+                                        <span class="youth-supply-category edu parenting welfare-mark">
+                                            교육
+                                        </span>
+                                    </div><!-- END: youth-supply-top-box -->
+                                    <div class="youth-supply-middle-box">
+                                        <h3>공공외교 활동 강화</h3>
+                                        <p>
+                                            태안군 내 외국인 유학생 합창단 및 태권도 동아리 운영,
+                                            춘천시 시티투어 운영
+                                        </p>
+                                    </div><!-- END: youth-supply-middle-box -->
+                                    <ul class="youth-supply-bottom-box">
+                                        <li class="youth-supply-infos">
+                                            <strong>제공유형</strong>
+                                            <span>-</span>
+                                        </li>
+                                        <li class="youth-supply-infos">
+                                            <strong>신청방법</strong>
+                                            <span>홈페이지 신청</span>
+                                        </li>
+                                        <li class="youth-supply-infos">
+                                            <strong>신청기간</strong>
+                                            <span>~2024.06.14</span>
+                                        </li>
+                                    </ul><!-- END: youth-supply-bottom-box -->
+                                    <a href="#" class="youth-supply-to-detail-btn">
+                                        <span>자세히 보기</span>
+                                        <img src="./images/svg/chevron-right-01.svg" alt="방향" />
+                                    </a>
+                                </div><!-- END: youth-supply-slide -->
+                            </div><!-- END: youth-supply-wrapper -->
+                        </div><!-- END: youth-supply-swiper -->
+                    </div><!-- END: youth-supply-slides -->
+                </div><!-- END: youth-supply-inner -->
+            </section><!-- end : youth-supply section -->
+            <section class="notice-release-section w-1200 m-auto py-10">
+                <div class="notice-release-inner">
+                    <div class="notice-release-wrap flex justify-between">
+                        <ul class="notice-release-items notice-items w-574">
+                            <li class="notice-release-title notice-title flex items-center justify-between h-60 px-4 py-2 border-b border-neutral-400">
+                                <div class="text-xl font-bold">공지사항</div>
+                                <a href="#" class="flex items-center">
+                                    <span class="text-lg font-semibold">더보기</span>
+                                    <img class="w-24 h-24" src="./images/svg/plus-01-md.svg" alt="더보기" />
+                                </a>
+                            </li>
+                            <li class="notice-release-content notice-content first-content mt-2.5 h-64 px-4 py-1 hover:bg-megabg flex flex-col justify-center">
+                                <a href="#">
+                                    <h4 class="font-medium line-clamp-1">2023년 민원서비스 종합평가 결과 공개</h4>
+                                    <span class="text-neutral-400 text-sm">2024.02.03</span>
+                                </a>
+                            </li>
+                            <li class="notice-release-content notice-content h-64 px-4 py-1 hover:bg-megabg flex flex-col justify-center">
+                                <a href="#">
+                                    <h4 class="font-medium line-clamp-1">태안다움협동조합「마을크리에이터 양성 교육생 모집」</h4>
+                                    <span class="text-neutral-400 text-sm">2024.02.03</span>
+                                </a>
+                            </li>
+                            <li class="notice-release-content notice-content h-64 px-4 py-1 hover:bg-megabg flex flex-col justify-center">
+                                <a href="#">
+                                    <h4 class="font-medium line-clamp-1">2023년도 태안군 보건의료원장(개방형직위) 임용시험 최종합격자 발표 및 임용후보자 등록요령 공고</h4>
+                                    <span class="text-neutral-400 text-sm">2024.02.03</span>
+                                </a>
+                            </li>
+                            <li class="notice-release-content notice-content last-conent mb-2.5 h-64 px-4 py-1 hover:bg-megabg flex flex-col justify-center">
+                                <a href="#">
+                                    <h4 class="font-medium line-clamp-1">2023년 민원서비스 종합평가 결과 공개</h4>
+                                    <span class="text-neutral-400 text-sm">2024.02.03</span>
+                                </a>
+                            </li>
+                        </ul><!-- END: notice-items -->
+                        <ul class="notice-release-items release-items w-574">
+                            <li class="notice-release-title release-title flex items-center justify-between h-60 px-4 py-2 border-b border-neutral-400">
+                                <div class="text-xl font-bold">보도자료</div>
+                                <a href="#" class="flex items-center">
+                                    <span class="text-lg font-semibold">더보기</span>
+                                    <img class="w-24 h-24" src="./images/svg/plus-01-md.svg" alt="더보기" />
+                                </a>
+                            </li>
+                            <li class="notice-release-content release-content first-content mt-2.5 h-64 px-4 py-1 hover:bg-megabg flex flex-col justify-center">
+                                <a href="#">
+                                    <h4 class="font-medium line-clamp-1">태안군, 로컬푸드 활성화 위한 '태안가득 아카데미 기초교육' 개강</h4>
+                                    <span class="text-neutral-400 text-sm">2024.02.03</span>
+                                </a>
+                            </li>
+                            <li class="notice-release-content release-content h-64 px-4 py-1 hover:bg-megabg flex flex-col justify-center">
+                                <a href="#">
+                                    <h4 class="font-medium line-clamp-1">태안군, 새내기 귀농·귀촌인 위한 맞춤형 영농교육 운영!</h4>
+                                    <span class="text-neutral-400 text-sm">2024.02.03</span>
+                                </a>
+                            </li>
+                            <li class="notice-release-content release-content h-64 px-4 py-1 hover:bg-megabg flex flex-col justify-center">
+                                <a href="#">
+                                    <h4 class="font-medium line-clamp-1">태안군, 올해 '5개 분야 109종' 축산분야 사업 신속 추진!</h4>
+                                    <span class="text-neutral-400 text-sm">2024.02.03</span>
+                                </a>
+                            </li>
+                            <li class="notice-release-content release-content last-conent mb-2.5 h-64 px-4 py-1 hover:bg-megabg flex flex-col justify-center">
+                                <a href="#">
+                                    <h4 class="font-medium line-clamp-1">"패총, 미래를 만나다" 태안 고남패총박물관 '新 문화공간' 탈바꿈!</h4>
+                                    <span class="text-neutral-400 text-sm">2024.02.03</span>
+                                </a>
+                            </li>
+                        </ul><!-- END: release-items -->
+                    </div><!-- END: notice-release-wrap -->
+                </div><!-- END: notice-release-inner -->
+            </section><!-- end : notice-release-section -->
+            <section class="policy-banner-section w-1200 m-auto pt-10 pb-20">
+                <div class="policy-banner-inner">
+                    <ul class="flex justify-between">
+                        <li class="flex items-center justify-between w-580 h-180 rounded-3xl px-4 py-0 pl-6 bg-banner1 border border-neutral-300">
+                            <div class="flex flex-col gap-y-2">
+                                <h2 class="text-3xl font-semibold"><span class="text-primary-700">충청남도</span> 청년정책</h2>
+                                <a class="text-2xl" href="https://youth.chungnam.go.kr/listIndvdlInfoPolicy.do" target="_blank" rel="noopener">
+                                    알아보러 가기
+                                </a>
+                            </div>
+                            <div class="policy-img-box">
+                                <img src="./images/policy-img-01.svg" alt="정책배너" />
+                            </div>
+                        </li>
+                        <li class="flex items-center justify-between w-580 h-180 rounded-3xl px-4 py-0 pl-6 bg-banner2 border border-neutral-300">
+                            <div class="flex flex-col gap-y-2">
+                                <h2 class="text-3xl font-semibold"><span class="text-primary-700">중앙정부</span> 청년정책</h2>
+                                <a class="text-2xl" href="https://2030.go.kr/main" target="_blank" rel="noopener">
+                                    알아보러 가기
+                                </a>
+                            </div>
+                            <div class="policy-img-box">
+                                <img src="./images/policy-img-02.svg" alt="정책배너" />
+                            </div>
+                        </li>
+                    </ul><!-- END: policy-banner-wrap -->
+                </div><!-- END: policy-banner-inner -->
+            </section><!-- end : policy-banner-section -->
+        </main>
+        <footer class="bg-neutral-900 text-neutral-400">
+            <div class="footer-inner w-1200 m-auto">
+                <div class="footer-wrapper">
+                    <div class="footer-top-box flex justify-between py-1 border-b border-neutral-400">
+                        <ul class="footer-btns-box flex items-center gap-x-20 text-sm">
+                            <li class="hover:text-white"><a href="#">이용약관</a></li>
+                            <li class="hover:text-white"><a href="#">개인정보처리방침</a></li>
+                            <li class="hover:text-white"><a href="#">저작권정책</a></li>
+                            <li class="hover:text-white"><a href="#">이메일 무단수집거부</a></li>
+                        </ul>
+                        <div class="footer-select-box text-lg ">
+                            <select class="bg-neutral-900 text-white h-48" title="family-site" onchange="window.open(value,'_blank');" id="visit-site" >
+                                <option class="all-footer-select" selected value="none">
+                                    태안 관광 홈페이지
+                                </option>
+                                <option value="https://www.taean.go.kr/tour.do">오감관광</option>
+                                <option value="http://www.taean.go.kr/slowcity/index.do">
+                                    슬로시티 태안
+                                </option>
+                                <option value="http://www.taean.go.kr/cyber/index.html">
+                                    태안 사이버 투어
+                                </option>
+                                <option value="http://taean.nefo.or.kr/taean.do">
+                                    태안관광 온라인지도
+                                </option>
+                                <option value="https://blog.naver.com/taeanblog">
+                                    태안군 블로그
+                                </option>
+                                <option value="https://www.facebook.com/taeansns">
+                                    태안군 페이스북
+                                </option>
+                                <option value="https://www.youtube.com/channel/UC2_aZQQYSp2M23dG58PKA4g/featured">
+                                    태안군 유튜브
+                                </option>
+                                <option value="https://story.kakao.com/ch/taeangun ">
+                                    태안군 카카오스토리
+                                </option>
+                            </select>
+                            <select class="bg-neutral-900 text-white h-48" title="visit-site" onchange="window.open(value,'_blank');" id="family-site">
+                                <option class="all-footer-select" selected value="none">
+                                    관련홈페이지
+                                </option>
+                                <option value="https://www.taean.go.kr/kor.do">스마트태안</option>
+                                <option value="http://www.ikiumter.or.kr">아이키움터</option>
+                                <option value="https://www.taean.go.kr/edu.do">열린교육</option>
+                            </select>
+                        </div><!-- END: footer-select-box -->
+                    </div><!-- END: footer-top-box -->
+                    <div class="footer-bottom-box flex justify-between items-center py-2">
+                        <div class="footer-address-box flex flex-col gap-y-2 text-sm font-semibold">
+                            <address class="not-italic">
+                                (우) 32145 충청남도 태안군 태안읍 장산리 336-3(동백로 51)
+                            </address>
+                            <a href="tel: 041-674-5215">대표전화 : 041&#41;674-5215</a>
+                        </div>
+                        <ul class="flex gap-x-2.5 mt-2.5 ">
+                            <li>
+                                <a href="#" class="w-36 h-36 bg-neutral-800 rounded-full flex items-center justify-center">
+                                    <img src="../images/footer-logo/youtube-white-logo.svg" alt="sns-logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="w-36 h-36 bg-neutral-800 rounded-full flex items-center justify-center">
+                                    <img src="../images/footer-logo/facebook-white-logo.svg" alt="sns-logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="w-36 h-36 bg-neutral-800 rounded-full flex items-center justify-center">
+                                    <img src="../images/footer-logo/kakao-white-logo.svg" alt="sns-logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://blog.naver.com/taeanblog" class="w-36 h-36 bg-neutral-800 rounded-full flex items-center justify-center">
+                                    <img src="../images/footer-logo/naver-white-logo.svg" alt="sns-logo">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="w-36 h-36 bg-neutral-800 rounded-full flex items-center justify-center">
+                                    <img src="../images/footer-logo/insta-white-logo.svg" alt="sns-logo" >
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!-- END: footer-bottom-box -->
+                    <p class="footer-copy-right text-sm text-center py-2">
+                        Copyright &copy; 2024 Taean-gun. All Rights Reserved
+                    </p>
+                </div><!-- END: footer-wrapper -->
+            </div><!-- END: footer-inner -->
+        </footer>
+    </body>
+</html>
